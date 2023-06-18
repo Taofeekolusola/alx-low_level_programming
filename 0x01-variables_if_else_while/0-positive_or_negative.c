@@ -1,13 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - A program that assign a value to the variable n each time it is executed
- * return 0
+ * main - A program that assign random value to n each time it is executed
+ * return 0 (success)
  */
 int main(void)
 {
-	int n  = 20;
-	if(n > 0){printf ("the number is positive\n");}
-	else if(n == 0) {printf("the number is zero\n");}
-	else (n < 0); {printf("the number is negative\n");}
-	return 0;
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	if (n > 0)
+	{printf("%d is positive\n", n);}
+
+	else if (n == 0)
+	{printf("%d is zero\n", n);}
+
+	else if (n < 0)
+	{printf("%d is negative\n", n);}
+
+	return (0);
 }
