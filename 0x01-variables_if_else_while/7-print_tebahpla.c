@@ -2,17 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - all numbers of base 10
+ * main - alphat from z-a
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int num;
+	int alph = 'a';
 
-	for (num = '0'; num <= '9'; num++)
-	putchar(num);
+	while (alph <= 'z')
+	{
+		putchar(alph);
+		alph--;
+	}
 	putchar('\n');
-
 	return (0);
 }
