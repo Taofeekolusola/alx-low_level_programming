@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int n;
+	int n = 2;
 	int num;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("last digit of: %d is", n);
-	num = n % 10;
+	num = n * 4;
 
 	if (num > 5)
 	{
