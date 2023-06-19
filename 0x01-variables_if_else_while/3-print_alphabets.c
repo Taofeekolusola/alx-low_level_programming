@@ -8,23 +8,22 @@
 
 int main(void)
 {
-	int lowercase = 'a';
-	int uppercase = 'A';
+	int ch = 'a';
+	int CH = 'A';
 
-	while (lowercase <= 'z')
+	while (ch<= 'z')
 	{
-		putchar(lowercase);
-		lowercase++;
+		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 
-	while (uppercase <= 'Z')
+	while (CH <= 'Z')
 	{
-		putchar(uppercase);
-		uppercase++;
+		putchar(CH);
+		CH++;
 	}
 	putchar('\n');
-
 	return (0);
 }
 
