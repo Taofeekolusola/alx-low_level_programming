@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - A program that assign random value to n each time it is executed
- * return: 0 (Success)
+ *
+ * return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 	int n;
