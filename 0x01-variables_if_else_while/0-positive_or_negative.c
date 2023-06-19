@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - A program that assign random value to n each time it is executed
+ * main - main function to generate a random number
  *
  * return: Always 0 (Success)
  *
@@ -28,5 +28,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
+	return (0); /*Indicates successful program execution*/
 }
