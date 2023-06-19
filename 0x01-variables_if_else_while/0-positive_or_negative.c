@@ -5,7 +5,7 @@
 /**
  * main - main function to generate a random number
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
