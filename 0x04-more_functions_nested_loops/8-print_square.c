@@ -2,7 +2,7 @@
 
 /**
  *  print_square - Write a function that prints a square
- *  @n: the number of times to print diagonal lines
+ *  @size: the number of times to print diagonal lines
  *  Return: empty
  */
 
