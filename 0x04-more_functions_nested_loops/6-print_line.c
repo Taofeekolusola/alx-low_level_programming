@@ -3,12 +3,12 @@
 /**
  * print_line - Draws a straight line according to parameter
  * @n: the number of lines to draw
- * empty
+ * Return: empty
  */
 
 void print_line(int n)
 {
-	int x; 
+	int x;
 
 	if (n <= 0)
 	{
@@ -17,7 +17,7 @@ void print_line(int n)
 
 	else
 	{
-	(x = '0'; x < 'n'; x++)
+	for (x = 0; x < n; x++)
 	{
 	_putchar(95);
 	}
