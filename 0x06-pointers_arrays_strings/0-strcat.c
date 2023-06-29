@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strca - appends the src string to the dest string
+ * _strcat - appends the src string to the dest string
  * @dest: the first string to be appended
  * @src: the second string to be appended
  * Return: void
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int a;
