@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strca - appends the src string to the dest string
+ * _strca - appends the src string to the dest string
  * @dest: the first string to be appended
  * @src: the second string to be appended
  * Return: void
