@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - Writes a function that concatenates two strings
+ * _strncat - Writes a function that concatenates two strings
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -11,7 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
-	
+
 	a = 0;
 	while (dest[a] != '\0')
 	{
