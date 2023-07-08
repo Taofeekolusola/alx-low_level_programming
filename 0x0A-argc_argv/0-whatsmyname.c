@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints its own name 
+ * main - prints its own name
  * @argc: argument count
  * @argv: argument vector
  * Return: Always 0
