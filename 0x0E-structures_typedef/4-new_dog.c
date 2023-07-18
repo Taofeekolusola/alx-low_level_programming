@@ -27,7 +27,7 @@ int _strlen(char *a)
 char *_strcpy(char *dest, char *src)
 {
 	int len, a;
-		
+
 	len = 0;
 
 	while (src[len] != '\0')
@@ -37,14 +37,14 @@ char *_strcpy(char *dest, char *src)
 
 	for (a = 0; a < len; a++)
 	{
-		dest[a] =src[a];
+		dest[a] = src[a];
 	}
 	dest[a] = '\0';
 
 	return (dest);
 }
 /**
- * new_ddog - creates a new dog
+ * new_dog - creates a new dog
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
