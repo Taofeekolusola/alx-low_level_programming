@@ -9,10 +9,11 @@
  * @str: string to the link
  * Return: head address
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node, *current_node;
-	size_t n;
+	size_t a;
 
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
@@ -20,9 +21,9 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	new_node->str = strdup(str);
 
-	for (n = 0; str[n]; n++)
+	for (a = 0; str[a]; a++)
 
-	new_node->len = n;
+	new_node->len = a;
 	new_node->next = NULL;
 	current_node = *head;
 
@@ -30,6 +31,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		*head = new_node;
 	}
+
 	else
 	{
 		while (current_node->next != NULL)
