@@ -5,7 +5,7 @@
 
 /**
  * add_node_end - adds a new node at the end
- * @head: the real link
+ * @head: the real link.
  * @str: string to the link
  * Return: head address
  */
