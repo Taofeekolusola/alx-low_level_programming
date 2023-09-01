@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	for (c = 1; c < argc; c++)
 	{
-		printf("argv[%d] = %s\n", c, argv[c]);
+		printf("%s\n",argv[c]);
 	}
 	return (0);
 }
