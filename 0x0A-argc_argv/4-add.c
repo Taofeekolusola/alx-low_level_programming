@@ -21,7 +21,6 @@ int is_digit(char *dig)
 			return (0);
 		}
 
-
 		i++;
 	}
 	return (1);
