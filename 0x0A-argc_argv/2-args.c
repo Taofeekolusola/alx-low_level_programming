@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * main - prints all arguments it receives
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: Always zero
+ */
+int main(int argc, char *argv[])
+{
+	int c;
+
+	for (c = 1; c < argc; c++)
+	{
+		printf("argv[%d] = %s\n", c, argv[c]);
+	}
+	return (0);
+}
