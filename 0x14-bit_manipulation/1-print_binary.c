@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 	int a, plus_plus = 0;
 	unsigned long int present;
 
-	for (a = 50; a >= 0; a--)
+	for (a = 63; a >= 0; a--)
 	{
 		present = n >> a;
 
