@@ -54,8 +54,8 @@ typedef struct shash_node_s
 	char *key;
 	char *value;
 	struct shash_node_s *next;
-	struct shash_node_s *eprev;
-	struct shash_node_s *enext;
+	struct shash_node_s *sprev;
+	struct shash_node_s *snext;
 } shash_node_t;
 
 /**
