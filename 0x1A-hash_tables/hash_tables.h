@@ -64,15 +64,15 @@ typedef struct shash_node_s
  * @array: An array of size @size
  * Each cell of this array is a pointer to the first node of a linked list,
  * because we want our HashTable to use a Chaining collision handling
- * @ehead: A pointer to the first element of the sorted linked list
- * @etail: A pointer to the last element of the sorted linked list
+ * @shead: A pointer to the first element of the sorted linked list
+ * @stail: A pointer to the last element of the sorted linked list
  */
 typedef struct shash_table_s
 {
 	unsigned long int size;
 	shash_node_t **array;
-	shash_node_t *ehead;
-	shash_node_t *etail;
+	shash_node_t *shead;
+	shash_node_t *stail;
 } shash_table_t;
 
 shash_table_t *shash_table_create(unsigned long int size);
